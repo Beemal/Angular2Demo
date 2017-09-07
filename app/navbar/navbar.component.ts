@@ -18,6 +18,7 @@ import {Component} from '@angular/core';
         <ul class="nav navbar-nav">
           <li class="active"><a routerLink="/home">Home <span class="sr-only">(current)</span></a></li>
           <li><a routerLink="/about-page">About</a></li>
+          <li><a routerLink="/data-bind">Data-Bind</a></li>
          <!-- <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
