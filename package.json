@@ -1,0 +1,39 @@
+{
+    "name": "ng2-start",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
+      "lite": "lite-server",
+      "tsc": "tsc",
+      "tsc:w": "tsc-w",
+      "typings": "typings",
+      "postinstall": "typings install"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "concurrently": "^3.3.0",
+      "lite-server": "^2.2.2",
+      "typescript": "^2.1.6",
+      "typings": "^2.1.0"
+    },
+    "dependencies": {
+      "@angular/common": "^2.4.7",
+      "@angular/compiler": "^2.4.7",
+      "@angular/core": "^2.4.7",
+      "@angular/forms": "^2.4.7",
+      "@angular/http": "^2.4.7",
+      "@angular/platform-browser": "^2.4.7",
+      "@angular/platform-browser-dynamic": "^2.4.7",
+      "@angular/router": "^3.4.7",
+      "@angular/upgrade": "^2.4.7",
+      "core-js": "^2.4.1",
+      "reflect-metadata": "^0.1.9",
+      "rxjs": "^5.0.0-beta.6",
+      "systemjs": "^0.20.9",
+      "zone.js": "^0.7.7"
+    }
+  }
