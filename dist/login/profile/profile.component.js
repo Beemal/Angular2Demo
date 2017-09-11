@@ -7,25 +7,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var User_1 = require("../model/User");
-var LoginComponent = /** @class */ (function () {
-    function LoginComponent() {
-        this.user = new User_1.Users();
+var ProfileComponent = /** @class */ (function () {
+    function ProfileComponent() {
     }
-    LoginComponent.prototype.login = function () {
-        if (this.user.email === "a@a.com" && this.user.password === "a")
-            this._router.navigate(['profile']);
-        else
-            console.log("Error");
-    };
-    LoginComponent = __decorate([
+    ProfileComponent = __decorate([
         core_1.Component({
-            selector: 'login-page',
-            styleUrls: ['./app/assets/style.css'],
-            templateUrl: './app/login/login.html'
+            selector: 'profile',
+            template: "<h1> THIS IS PROFILE</h1>"
         })
-    ], LoginComponent);
-    return LoginComponent;
+    ], ProfileComponent);
+    return ProfileComponent;
 }());
-exports.LoginComponent = LoginComponent;
-//# sourceMappingURL=login.component.js.map
+exports.ProfileComponent = ProfileComponent;
+//# sourceMappingURL=profile.component.js.map

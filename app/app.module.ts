@@ -10,6 +10,8 @@ import { HomeComponent} from './home/home.component';
 import {DataBindComponent} from './users/dataBind.component';
 import {UserFormComponent} from './users/user-form.component';
 import {UserProfileComponent} from './users/user-profile.component';
+import {ProfileComponent} from './login/profile/profile.component';
+
 
 
 @NgModule({
@@ -20,7 +22,7 @@ import {UserProfileComponent} from './users/user-profile.component';
         ],
     declarations: [
          AppComponent, NavbarComponent, LoginComponent, AboutComponent, HomeComponent,
-         DataBindComponent, UserFormComponent, UserProfileComponent
+         DataBindComponent, UserFormComponent, UserProfileComponent, ProfileComponent
     ],
     bootstrap: [AppComponent]
 })

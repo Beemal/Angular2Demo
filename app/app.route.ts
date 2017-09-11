@@ -7,11 +7,13 @@ import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { DataBindComponent } from './users/dataBind.component';
+import {ProfileComponent} from './login/profile/profile.component';
+
 // Route Configuration
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: '/',
+    redirectTo: 'login-page',
     pathMatch: 'full'
   },
   {
@@ -24,9 +26,11 @@ export const routes: Routes = [
     path: 'home', component: HomeComponent
   },
   {
-    path: 'about-page', component: AboutComponent
+    path: 'profile', component: ProfileComponent
   },
-  { path: '**', component: AnimationEvent }
+  {
+    path: 'about-page', component: AboutComponent
+  }
 ];
 
 // Deprecated provide
